@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Рекламите се зареждат, моля изчакайте...</string>
+  <string name="this_action_contains_ads">(Това действие може да съдържа реклами)</string>
+  <string name="is_running_please_wait">Работи, моля изчакайте!</string>
+  <string name="welcome_back">ДОБРЕ ДОШЪЛ ОБРАТНО</string>
+  <string name="you_need_update">Трябва да актуализирате, за да използвате това приложение\"</string>
+  <string name="update_faile">Неуспешна актуализация, моля, опитайте отново\"</string>
+</resources>

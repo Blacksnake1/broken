@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Na-ebu mgbasa ozi, biko chere…</string>
+  <string name="this_action_contains_ads">(Ihe omume a nwere ike ịnwe mgbasa ozi)</string>
+  <string name="is_running_please_wait">Na-agba ọsọ, biko chere!</string>
+  <string name="welcome_back">NNỌỌ</string>
+  <string name="you_need_update">Ikwesiri imelite ka iji ngwa a\"</string>
+  <string name="update_faile">Mmelite dara, biko nwaa ọzọ\"</string>
+</resources>

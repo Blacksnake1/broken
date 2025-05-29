@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">広告を読み込んでいます。お待ちください…</string>
+  <string name="this_action_contains_ads">(このアクションには広告が含まれる場合があります)</string>
+  <string name="is_running_please_wait">実行中です、お待ちください!</string>
+  <string name="welcome_back">おかえり</string>
+  <string name="you_need_update">このアプリを使用するにはアップデートする必要があります」</string>
+  <string name="update_faile">アップデートに失敗しました。もう一度お試しください。」</string>
+</resources>

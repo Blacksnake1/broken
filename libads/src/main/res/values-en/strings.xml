@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading ads, please wait …</string>
+  <string name="this_action_contains_ads">( This action can contains ads )</string>
+  <string name="is_running_please_wait">Is running, please wait!</string>
+  <string name="welcome_back">WELCOME BACK</string>
+  <string name="you_need_update">You need to update to use this app\"</string>
+  <string name="update_faile">Update failed, please try again\"</string>
+</resources>

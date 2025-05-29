@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading ads, pangngaasiyo ta aguraykayo ...</string>
+  <string name="this_action_contains_ads">( Daytoy nga aramid ket mabalin nga aglaon kadagiti anunsio )</string>
+  <string name="is_running_please_wait">Ket agtartaray, pangngaasiyo ta aguraykayo!</string>
+  <string name="welcome_back">WELCOME BACK</string>
+  <string name="you_need_update">Masapul nga ag-update tapno mausar daytoy nga app\".</string>
+  <string name="update_faile">Napaay ti update, pangngaasiyo ta padasenyo manen\".</string>
+</resources>

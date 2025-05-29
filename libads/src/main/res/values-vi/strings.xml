@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Đang tải quảng cáo, vui lòng chờ…</string>
+  <string name="this_action_contains_ads">(Hành động này có thể chứa quảng cáo)</string>
+  <string name="is_running_please_wait">Đang chạy, vui lòng đợi!</string>
+  <string name="welcome_back">CHÀO MỪNG TRỞ LẠI</string>
+  <string name="you_need_update">Bạn cần cập nhật để sử dụng ứng dụng này</string>
+  <string name="update_faile">Cập nhật không thành công, vui lòng thử lại</string>
+</resources>

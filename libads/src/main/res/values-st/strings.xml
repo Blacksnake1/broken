@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">E kenya lipapatso, ka kopo ema ...</string>
+  <string name="this_action_contains_ads">(Ketso ena e ka ba le lipapatso)</string>
+  <string name="is_running_please_wait">E ea matha, ema ka kopo!</string>
+  <string name="welcome_back">REA U AMOHELA HAPE</string>
+  <string name="you_need_update">U hloka ho ntlafatsa ho sebelisa sesebelisoa sena\"</string>
+  <string name="update_faile">E hlolehile, ka kopo leka hape\"</string>
+</resources>

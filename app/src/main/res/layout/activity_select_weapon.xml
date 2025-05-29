@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_destroy_screen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginStart="@dimen/dp_20"
+            android:foreground="@drawable/bg_animation_click"
+            android:padding="@dimen/dp_7"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvRecent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_60"
+            android:fontFamily="@font/hijack"
+            android:gravity="center"
+            android:text="@string/select_weapon"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_24"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btnBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnBack"
+            app:layout_constraintTop_toTopOf="@+id/btnBack" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvWeapon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/dp_90"
+        app:layout_constraintBottom_toTopOf="@id/vgNativeAds"
+        app:layout_constraintTop_toBottomOf="@id/vgfirst"
+        tools:listitem="@layout/item_weapon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnDestroy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_36"
+        android:enabled="false"
+        android:layout_marginBottom="@dimen/dp_2"
+        android:background="@drawable/bg_ra8_gray"
+        android:fontFamily="@font/roboto_bold"
+        android:foreground="@drawable/bg_animation_click"
+        android:gravity="center"
+        android:paddingVertical="@dimen/dp_10"
+        android:text="@string/destroy"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/roboto_medium"
+        app:layout_constraintBottom_toTopOf="@id/vgNativeAds" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgNativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.gianghv.admob.CustomNativeAdsCrankEffect
+            android:id="@+id/native_ad_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.gianghv.max.MaxNativeAdLargeView
+            android:id="@+id/max_native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

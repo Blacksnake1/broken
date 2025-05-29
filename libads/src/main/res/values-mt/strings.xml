@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Tagħbija reklami, jekk jogħġbok stenna...</string>
+  <string name="this_action_contains_ads">(Din l-azzjoni tista\' tinkludi reklami)</string>
+  <string name="is_running_please_wait">Qed taħdem, jekk jogħġbok stenna!</string>
+  <string name="welcome_back">MERĦBA LURA</string>
+  <string name="you_need_update">Trid taġġorna biex tuża din l-app\"</string>
+  <string name="update_faile">L-aġġornament falla, jekk jogħġbok erġa\' pprova\"</string>
+</resources>

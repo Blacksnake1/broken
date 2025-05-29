@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_1d1c1c"
+    android:gravity="center">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:background="@drawable/bg_ra5"
+        android:backgroundTint="@color/gray_35383f"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/dp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="@dimen/dp_16"-->
+<!--            android:background="@drawable/bg_ra16_gra"-->
+<!--            android:backgroundTint="@color/gray_35383f"-->
+<!--            android:paddingBottom="@dimen/dp_16">-->
+
+            <ImageView
+                android:id="@+id/ivThumb"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:adjustViewBounds="true"
+                android:src="@drawable/thumb_dialog"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/tvtv"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvtv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_12"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:text="@string/broken_screen_is_"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/ivThumb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivThumb"
+                app:layout_constraintTop_toTopOf="@id/ivThumb" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/vgNativeAds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_18"
+                app:layout_constraintTop_toBottomOf="@id/ivThumb">
+
+                <com.gianghv.admob.CustomNativeAdsDialogReadyToUser
+                    android:id="@+id/item_admob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.gianghv.max.MaxNativeAdLargeView
+                    android:id="@+id/item_max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/btnDone"
+                style="@style/text_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@drawable/bg_ra8_gra"
+                android:foreground="@drawable/bg_animation_click"
+                android:gravity="center"
+                android:paddingVertical="@dimen/dp_8"
+                android:text="@string/done"
+                android:textAllCaps="true"
+                android:textSize="@dimen/dp_22"
+                app:layout_constraintTop_toBottomOf="@id/vgNativeAds" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

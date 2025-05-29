@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="base_font" >
+        <item name="android:textSize">@dimen/dp_16</item>
+        <item name="android:textColor">@color/text_color_app</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="text_medium" parent="base_font" >
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="text_regular" parent="base_font">
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="text_bold" parent="base_font">
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="Dialog" >
+        <item name="backgroundColor">@color/transparent</item>
+        <item name="android:popupBackground">@color/transparent</item>
+    </style>
+
+    <style name="DialogFragment" >
+<!--        <item name="backgroundColor">@color/transparent</item>-->
+<!--        <item name="android:popupBackground">@color/transparent</item>-->
+    </style>
+
+    <style name="DialogPermissrion" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

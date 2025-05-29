@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id" translatable="false">1184666906230664</string>
+    <string name="application_id" translatable="false">com.brokenscreen.prankapp.crack.screen</string>
+    <string name="facebook_client_token" translatable="false">26796bbe72e09562c4519d6d76e745aa</string>
+    <string name="adjust_token_key" translatable="false">6dx139mp7og0</string>
+    <string name="applovin_sdk_key" translatable="false">lBnu4FPbTxGUi8cqgwNENfRfqINTVk8B9NxC2Japp2DqKPThsIhPCF7zcC6wr9_IN8OLTcG9SR4dT4OJwQPTBf</string>
+    <string name="current_app_name" translatable="false">Broken Screen 4K Funny Pranks</string>
+
+
+    <string name="loading_ads">Loading ads, please wait … </string>
+    <string name="this_action_contains_ads">( This action can contains ads )</string>
+    <string name="is_running_please_wait">is running, please wait!</string>
+    <string name="welcome_back">WELCOME BACK</string>
+    <string name="you_need_update">You need to update to use this app</string>
+    <string name="update_faile">Update failed, please try again</string>
+    <string name="next">next</string>
+</resources>

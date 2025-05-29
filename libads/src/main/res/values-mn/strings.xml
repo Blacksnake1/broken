@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Заруудыг ачаалж байна, түр хүлээнэ үү...</string>
+  <string name="this_action_contains_ads">(Энэ үйлдэл нь зар агуулж болно)</string>
+  <string name="is_running_please_wait">Ажиллаж байна, түр хүлээнэ үү!</string>
+  <string name="welcome_back">БУЦААД ТАВТАЙ МОРИЛ</string>
+  <string name="you_need_update">Та энэ програмыг ашиглахын тулд шинэчлэх хэрэгтэй\"</string>
+  <string name="update_faile">Шинэчилж чадсангүй, дахин оролдоно уу\"</string>
+</resources>

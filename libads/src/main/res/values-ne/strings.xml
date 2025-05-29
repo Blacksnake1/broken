@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">विज्ञापनहरू लोड गर्दै, कृपया प्रतीक्षा गर्नुहोस् ...</string>
+  <string name="this_action_contains_ads">(यो कार्यले विज्ञापनहरू समावेश गर्न सक्छ)</string>
+  <string name="is_running_please_wait">चलिरहेको छ, कृपया प्रतीक्षा गर्नुहोस्!</string>
+  <string name="welcome_back">फिर्ता आउनु भएकोमा स्वागत छ</string>
+  <string name="you_need_update">तपाईंले यो एप प्रयोग गर्न अद्यावधिक गर्न आवश्यक छ\"</string>
+  <string name="update_faile">अपडेट असफल भयो, कृपया पुन: प्रयास गर्नुहोस्\"</string>
+</resources>

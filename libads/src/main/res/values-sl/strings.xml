@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Nalaganje oglasov, počakajte ...</string>
+  <string name="this_action_contains_ads">(To dejanje lahko vsebuje oglase)</string>
+  <string name="is_running_please_wait">Teče, počakajte!</string>
+  <string name="welcome_back">DOBRODOŠEL NAZAJ</string>
+  <string name="you_need_update">Za uporabo te aplikacije morate posodobiti\"</string>
+  <string name="update_faile">Posodobitev ni uspela, poskusite znova\"</string>
+</resources>

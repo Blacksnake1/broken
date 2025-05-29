@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Nag-load sa mga ad, palihug paghulat…</string>
+  <string name="this_action_contains_ads">(Kini nga aksyon mahimong adunay mga ad)</string>
+  <string name="is_running_please_wait">Nagdagan, palihog paghulat!</string>
+  <string name="welcome_back">MAAYONG PAGBALIK</string>
+  <string name="you_need_update">Kinahanglan nimo nga mag-update aron magamit kini nga app\"</string>
+  <string name="update_faile">Napakyas ang pag-update, palihug pagsulay pag-usab\"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">S\'estan carregant anuncis, espereu...</string>
+  <string name="this_action_contains_ads">(Aquesta acció pot contenir anuncis)</string>
+  <string name="is_running_please_wait">S\'està executant, si us plau, espereu!</string>
+  <string name="welcome_back">BENVINGUT DE NOU</string>
+  <string name="you_need_update">Cal actualitzar per utilitzar aquesta aplicació\"</string>
+  <string name="update_faile">L\'actualització ha fallat, torneu-ho a provar\"</string>
+</resources>

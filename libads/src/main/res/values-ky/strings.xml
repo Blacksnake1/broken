@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Жарнамалар жүктөлүүдө, күтө туруңуз…</string>
+  <string name="this_action_contains_ads">(Бул аракет жарнамаларды камтышы мүмкүн)</string>
+  <string name="is_running_please_wait">Иштеп жатат, күтө туруңуз!</string>
+  <string name="welcome_back">КАЙРА КОШ КЕЛИҢИЗ</string>
+  <string name="you_need_update">Бул колдонмону колдонуу үчүн жаңыртышыңыз керек\"</string>
+  <string name="update_faile">Жаңыртылган жок, кайра аракет кылыңыз\"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Iragarkiak kargatzen, itxaron mesedez…</string>
+  <string name="this_action_contains_ads">( Ekintza honek iragarkiak izan ditzake )</string>
+  <string name="is_running_please_wait">Martxan dago, itxaron mesedez!</string>
+  <string name="welcome_back">ONGI ETORRI</string>
+  <string name="you_need_update">Aplikazio hau erabiltzeko eguneratu behar duzu\"</string>
+  <string name="update_faile">Eguneratzea huts egin du, saiatu berriro\"</string>
+</resources>

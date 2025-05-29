@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_6"
+        android:background="@drawable/bg_ra5"
+        android:backgroundTint="@color/gray_35383f"
+        android:paddingBottom="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center"
+            android:text="@string/if_you_have"
+            android:textColor="@color/text_color_app"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_feedback_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_10"
+            android:gravity="center"
+            android:text="@string/we_will"
+            android:textColor="@color/text_color_app"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_feedback" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_thank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_10"
+            android:gravity="center"
+            android:text="@string/thank_you"
+            android:textColor="@color/text_color_app"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_feedback_bottom" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtReports"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_130"
+            android:layout_marginHorizontal="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg_ra5"
+            android:gravity="top|start"
+            android:hint="@string/feedback_or_suggestion"
+            android:overScrollMode="always"
+            android:padding="@dimen/dp_10"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintTop_toBottomOf="@id/tv_thank" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginEnd="@dimen/dp_15"
+            android:background="@drawable/bg_ra50"
+            android:backgroundTint="@color/yellow_ff7c05"
+            android:fontFamily="@font/roboto_medium"
+            android:foreground="@drawable/bg_animation_click"
+            android:paddingHorizontal="@dimen/dp_18"
+            android:paddingVertical="@dimen/dp_4"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_18"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtReports" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:fontFamily="@font/roboto_medium"
+            android:foreground="@drawable/bg_animation_click"
+            android:padding="@dimen/dp_10"
+            android:text="@string/cancel"
+            android:textColor="@color/yellow_ff7c05"
+            android:textSize="@dimen/dp_18"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btnSend"
+            app:layout_constraintEnd_toStartOf="@id/btnSend"
+            app:layout_constraintTop_toTopOf="@+id/btnSend" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

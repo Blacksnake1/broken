@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading dipapatšo, hle ema ...</string>
+  <string name="this_action_contains_ads">( Tiro ye e ka na le dipapatšo ) .</string>
+  <string name="is_running_please_wait">E a kitima, hle ema!</string>
+  <string name="welcome_back">AMOGELA GO BOELA</string>
+  <string name="you_need_update">O hloka go mpshafatša go šomiša tirišo ye\".</string>
+  <string name="update_faile">Update e paletšwe, hle leka gape\".</string>
+</resources>

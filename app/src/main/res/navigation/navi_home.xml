@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nekosoft.brokenglass.ui.home.HomeActivity"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_crankEffectFragment"
+            app:destination="@id/crankEffectFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_wallpaperFrament"
+            app:destination="@id/wallpaperFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_setting_fragment"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_recent_fragment"
+            app:destination="@id/recentFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/crankEffectFragment"
+        android:name="com.nekosoft.brokenglass.ui.crankEffect.CrankEffectActivity"
+        android:label="fragment_crank_effect"
+        tools:layout="@layout/fragment_crank_effect">
+        <action
+            android:id="@+id/action_crankEffectFragment_to_brokenScreenFragment"
+            app:destination="@id/brokenScreenFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out">
+            <argument
+                android:name="screen"
+                app:argType="com.nekosoft.brokenglass.data.model.EffectBrokenModel"
+                app:nullable="true" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/brokenScreenFragment"
+        android:name="com.nekosoft.brokenglass.ui.BrokenScreenActivity"
+        android:label="BrokenScreenFragment">
+        <argument
+            android:name="screen"
+            app:argType="com.nekosoft.brokenglass.data.model.EffectBrokenModel"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="com.nekosoft.brokenglass.ui.wallpaper.WallpaperFragment"
+        android:label="WallpaperFragment">
+        <action
+            android:id="@+id/action_wallpaperFragment_to_wallpaperDetailFragment"
+            app:destination="@id/wallpaperDetailFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out">
+            <argument
+                android:name="screen"
+                app:argType="com.nekosoft.brokenglass.data.model.ScreenModel"
+                app:nullable="true" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/wallpaperDetailFragment"
+        android:name="com.nekosoft.brokenglass.ui.WallpaperDetailActivity"
+        android:label="WallpaperDetailFragment">
+<!--        <action-->
+<!--            android:id="@+id/action_wallpaperDetailFragment_to_wallpaperFragment"-->
+<!--            app:destination="@id/wallpaperFragment"-->
+<!--            app:enterAnim="@anim/slide_in"-->
+<!--            app:exitAnim="@anim/fade_out"-->
+<!--            app:popEnterAnim="@anim/fade_in"-->
+<!--            app:popExitAnim="@anim/slide_out"-->
+<!--            app:popUpTo="@id/wallpaperDetailFragment"-->
+<!--            app:popUpToInclusive="true"/>-->
+        <argument
+            android:name="screen"
+            app:argType="com.nekosoft.brokenglass.data.model.ScreenModel"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.nekosoft.brokenglass.ui.SettingActivity"
+        android:label="SettingFragment"></fragment>
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="com.nekosoft.brokenglass.ui.recent.RecentActivity"
+        android:label="RecentFragment">
+        <action
+            android:id="@+id/action_recentFragment_to_wallpaperDetailFragment"
+            app:destination="@id/wallpaperDetailFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out">
+            <argument
+                android:name="screen"
+                app:argType="com.nekosoft.brokenglass.data.model.ScreenModel"
+                app:nullable="true" />
+        </action>
+    </fragment>
+
+</navigation>

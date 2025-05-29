@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Reklaamide laadimine, palun oodake…</string>
+  <string name="this_action_contains_ads">( See toiming võib sisaldada reklaame )</string>
+  <string name="is_running_please_wait">Töötab, palun oota!</string>
+  <string name="welcome_back">TERE TULEMAST TAGASI</string>
+  <string name="you_need_update">Selle rakenduse kasutamiseks peate värskendama\"</string>
+  <string name="update_faile">Värskendamine ebaõnnestus, proovige uuesti\"</string>
+</resources>

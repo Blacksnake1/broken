@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Beeksisa fe\'aa jira, mee eegaa ...</string>
+  <string name="this_action_contains_ads">( Gochi kun beeksisa of keessaa qabaachuu danda\'a )</string>
+  <string name="is_running_please_wait">Fiigaa jira, mee eegaa!</string>
+  <string name="welcome_back">BAGA BGAA DEEBII FUDHATTAN</string>
+  <string name="you_need_update">App kana fayyadamuuf update gochuu qabdu\".</string>
+  <string name="update_faile">Update hin milkoofne, mee irra deebi\'ii yaalaa\"</string>
+</resources>

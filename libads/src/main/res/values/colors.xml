@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_black">#070707</color>
+    <color name="black">#35383f</color>
+
+    <color name="ad_text_btn_CTA">#FFFFFF</color>
+    <color name="bg_loading_open_ads">#CE606160</color>
+    <color name="transparent">#00606160</color>
+
+    <!--............................Native ads  ............................-->
+    <color name="color_bg_icon_AD">#EBFF5C00</color>
+
+    <!--color star-->
+    <color name="colorRatingBarNormal">#FFBFA4</color>
+    <color name="colorStar">#FF5C00</color>
+
+    <color name="color_btn_action">#EBFF5C00</color>
+
+    <color name="ad_border_color">#CE7B7C7B</color>
+    <color name="color_background">#FCFCFF</color>
+
+    <color name="text_color_white">#FFFFFF</color>
+
+    <color name="bg_content">#DCEBF3</color>
+
+
+</resources>

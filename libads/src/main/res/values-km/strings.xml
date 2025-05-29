@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">កំពុងផ្ទុកការផ្សាយពាណិជ្ជកម្ម សូមរង់ចាំ…</string>
+  <string name="this_action_contains_ads">(សកម្មភាពនេះអាចផ្ទុកការផ្សាយពាណិជ្ជកម្ម)</string>
+  <string name="is_running_please_wait">កំពុងដំណើរការ សូមរង់ចាំ!</string>
+  <string name="welcome_back">ស្វា​គម​ន៏​ការ​ត្រ​លប់​មក​វិញ</string>
+  <string name="you_need_update">អ្នកត្រូវអាប់ដេតដើម្បីប្រើកម្មវិធីនេះ\"</string>
+  <string name="update_faile">ការអាប់ដេតបានបរាជ័យ សូមព្យាយាមម្តងទៀត\"</string>
+</resources>

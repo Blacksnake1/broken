@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">اعلانونه پورته کول، مهرباني وکړئ انتظار وکړئ ...</string>
+  <string name="this_action_contains_ads">(دا عمل کولی شي اعلانونه ولري)</string>
+  <string name="is_running_please_wait">روانه ده، مهرباني وکړئ انتظار وکړئ!</string>
+  <string name="welcome_back">بیرته پخیر راغلې</string>
+  <string name="you_need_update">تاسو اړتیا لرئ د دې اپلیکیشن کارولو لپاره تازه کړئ\"</string>
+  <string name="update_faile">تازه کول ناکام شول، مهرباني وکړئ بیا هڅه وکړئ\"</string>
+</resources>

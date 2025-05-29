@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ಜಾಹೀರಾತುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ...</string>
+  <string name="this_action_contains_ads">(ಈ ಕ್ರಿಯೆಯು ಜಾಹೀರಾತುಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು)</string>
+  <string name="is_running_please_wait">ಚಾಲನೆಯಲ್ಲಿದೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ!</string>
+  <string name="welcome_back">ಮರಳಿ ಸ್ವಾಗತ</string>
+  <string name="you_need_update">ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಬಳಸಲು ನೀವು ನವೀಕರಿಸಬೇಕಾಗಿದೆ\"</string>
+  <string name="update_faile">ನವೀಕರಣ ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ\"</string>
+</resources>

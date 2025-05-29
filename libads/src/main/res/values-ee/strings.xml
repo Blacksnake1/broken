@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading ads, taflatse lala ...</string>
+  <string name="this_action_contains_ads">( Nuwɔna sia ate ŋu anye boblododowo )</string>
+  <string name="is_running_please_wait">Le du dzi, taflatse lala!</string>
+  <string name="welcome_back">WOGBƆ GBƆ GBƆ</string>
+  <string name="you_need_update">Ele be nàwɔ update hafi azã app sia\".</string>
+  <string name="update_faile">Update do kpo nu, taflatse gadze agbagba ake\".</string>
+</resources>

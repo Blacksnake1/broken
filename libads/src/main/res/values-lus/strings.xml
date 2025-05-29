@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Ads loading, lo nghak rawh ...</string>
+  <string name="this_action_contains_ads">( He action ah hian ads a awm thei )</string>
+  <string name="is_running_please_wait">A tlan mek a, khawngaihin lo nghak rawh!</string>
+  <string name="welcome_back">LO LO AWM VE VE RAWH</string>
+  <string name="you_need_update">He app hmang tur hian update i mamawh a ni\".</string>
+  <string name="update_faile">Update a hlawhchham, khawngaihin han lo en leh teh\".</string>
+</resources>

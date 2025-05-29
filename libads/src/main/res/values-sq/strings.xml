@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Reklamat po ngarkohen, ju lutemi prisni…</string>
+  <string name="this_action_contains_ads">(Ky veprim mund të përmbajë reklama)</string>
+  <string name="is_running_please_wait">Po funksionon, ju lutem prisni!</string>
+  <string name="welcome_back">MIRËSE U KTHEVE</string>
+  <string name="you_need_update">Duhet të përditësosh për të përdorur këtë aplikacion\"</string>
+  <string name="update_faile">Përditësimi dështoi, ju lutemi provoni përsëri\"</string>
+</resources>

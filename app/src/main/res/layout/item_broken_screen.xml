@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/dp_20"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/backgroundPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/thumnail_lock_theme2"
+                android:layout_width="@dimen/dp_160"
+                android:layout_height="@dimen/dp_350"
+                android:background="@drawable/bg_phone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/dp_4"
+            android:layout_marginVertical="@dimen/dp_6"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="@dimen/dp_10"
+            app:layout_constraintBottom_toBottomOf="@id/backgroundPhone"
+            app:layout_constraintEnd_toEndOf="@id/backgroundPhone"
+            app:layout_constraintStart_toStartOf="@id/backgroundPhone"
+            app:layout_constraintTop_toTopOf="@id/backgroundPhone">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginEnd="@dimen/dp_5"
+        android:padding="6dp"
+        android:src="@drawable/ic_checked"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/item"
+        app:layout_constraintTop_toTopOf="@id/item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

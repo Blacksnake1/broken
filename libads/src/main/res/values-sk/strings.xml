@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Načítavajú sa reklamy, čakajte...</string>
+  <string name="this_action_contains_ads">(Táto akcia môže obsahovať reklamy)</string>
+  <string name="is_running_please_wait">Beží, čakajte prosím!</string>
+  <string name="welcome_back">VITAJ SPÄŤ</string>
+  <string name="you_need_update">Ak chcete používať túto aplikáciu, musíte ju aktualizovať\"</string>
+  <string name="update_faile">Aktualizácia zlyhala, skúste to znova\"</string>
+</resources>

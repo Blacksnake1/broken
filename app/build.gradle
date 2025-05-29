@@ -1,0 +1,271 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'com.google.devtools.ksp'
+    id 'com.google.dagger.hilt.android'
+    id("androidx.navigation.safeargs.kotlin")
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.gms.google-services'
+
+}
+
+android {
+    namespace 'com.brokenscreen.prankapp.crack.screen'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.brokenscreen.prankapp.crack.screen"
+        minSdk 24
+        targetSdk 35
+        versionCode 4
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def date = new Date()
+        def formattedDate = date.format('dd-MM')
+        Calendar calendar = GregorianCalendar.getInstance()
+        def hour = calendar.get(Calendar.HOUR_OF_DAY)
+        def minute = calendar.get(Calendar.MINUTE)
+        setProperty("archivesBaseName", applicationId + versionCode + "__" + versionName + "__${formattedDate}__${hour}h${minute}")
+    }
+    signingConfigs {
+        release {
+            storeFile file("key/nekosoft_123456.jks")
+            storePassword "123456"
+            keyAlias "nekosoft"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+//            debuggable true
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig = true
+    }
+//    android.applicationVariants.all { variant ->
+//        variant.outputs.all {
+//            def appName = "Broken Screen Funny Prank"
+//            def date = new Date()
+//            def formattedDate = date.format('dd-MM')
+//            outputFileName = appName + "__${variant.versionName}" + "__${formattedDate}" + ".apk"
+//        }
+//    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+        abi {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+    }
+
+
+    flavorDimensions "default"
+    productFlavors {
+        idTest {
+            manifestPlaceholders = [ad_app_id: "ca-app-pub-3940256099942544~3347511713"]
+
+            // --- BANNER ---
+            buildConfigField "String", "banner_splash_id", "\"ca-app-pub-3940256099942544/6300978111\""
+            buildConfigField "String", "banner_splash_mrec_id", "\"ca-app-pub-3940256099942544/6300978111\""
+            buildConfigField "String", "banner_intro_id", "\"ca-app-pub-3940256099942544/6300978111\""
+            buildConfigField "String", "banner_home_id", "\"ca-app-pub-3940256099942544/6300978111\""
+
+// --- NATIVE ---
+            buildConfigField "String", "native_language_id", "\"ca-app-pub-3940256099942544/2247696110\""
+            buildConfigField "String", "native_intro_id", "\"ca-app-pub-3940256099942544/2247696110\""
+            buildConfigField "String", "native_full_id", "\"ca-app-pub-3940256099942544/2247696110\""
+            buildConfigField "String", "native_function_id", "\"ca-app-pub-3940256099942544/2247696110\""
+            buildConfigField "String", "native_history_id", "\"ca-app-pub-3940256099942544/2247696110\""
+
+// --- INTER ---
+            buildConfigField "String", "inter_splash_id", "\"ca-app-pub-3940256099942544/1033173712\""
+            buildConfigField "String", "inter_resume_id", "\"ca-app-pub-3940256099942544/1033173712\""
+            buildConfigField "String", "inter_getstart_id", "\"ca-app-pub-3940256099942544/1033173712\""
+            buildConfigField "String", "inter_function_id", "\"ca-app-pub-3940256099942544/1033173712\""
+            buildConfigField "String", "inter_unlock_id", "\"ca-app-pub-3940256099942544/1033173712\""
+
+            /////////////////////////////// /////////////////////////////
+
+            buildConfigField("String", "max_banner", "\"\"")
+            buildConfigField("String", "max_native", "\"\"")
+            buildConfigField("String", "max_inter", "\"\"")
+            buildConfigField("String", "max_openads", "\"\"")
+            buildConfigField("String", "max_reward", "\"\"")
+        }
+
+        idReal {
+            manifestPlaceholders = [ad_app_id: "ca-app-pub-4636496778732615~3120132097"]
+            // --- BANNER ---
+            buildConfigField "String", "banner_splash_id", "\"ca-app-pub-4636496778732615/7471500135\""
+            buildConfigField "String", "banner_splash_mrec_id", "\"ca-app-pub-4636496778732615/2238520607\""
+            buildConfigField "String", "banner_intro_id", "\"ca-app-pub-4636496778732615/3125061016\""
+            buildConfigField "String", "banner_home_id", "\"ca-app-pub-4636496778732615/7490847289\""
+
+// --- NATIVE ---
+            buildConfigField "String", "native_language_id", "\"ca-app-pub-4636496778732615/2872720085\""
+            buildConfigField "String", "native_intro_id", "\"ca-app-pub-4636496778732615/7046934661\""
+            buildConfigField "String", "native_full_id", "\"ca-app-pub-4636496778732615/3267471752\""
+            buildConfigField "String", "native_function_id", "\"ca-app-pub-4636496778732615/8401438422\""
+            buildConfigField "String", "native_history_id", "\"ca-app-pub-4636496778732615/8229213882\""
+
+// --- INTER ---
+            buildConfigField "String", "inter_splash_id", "\"ca-app-pub-4636496778732615/9714520096\""
+            buildConfigField "String", "inter_resume_id", "\"ca-app-pub-4636496778732615/4580553424\""
+            buildConfigField "String", "inter_getstart_id", "\"ca-app-pub-4636496778732615/1855377229\""
+            buildConfigField "String", "inter_function_id", "\"ca-app-pub-4636496778732615/5893635098\""
+            buildConfigField "String", "inter_unlock_id", "\"ca-app-pub-4636496778732615/9673098009\""
+
+            /////////////////////////////// /////////////////////////////
+
+            buildConfigField("String", "max_banner", "\"71b2c830dbc28eca\"")
+            buildConfigField("String", "max_native", "\"68068853fda46035\"")
+            buildConfigField("String", "max_inter", "\"d79313df186719de\"")
+            buildConfigField("String", "max_openads", "\"eda6ee5c7ad4a86d\"")
+            buildConfigField("String", "max_reward", "\"986065465c7c53d3\"")
+        }
+        noId {
+            manifestPlaceholders = [ad_app_id: "ca-app-pub-3940256099942544~3347511713"]
+            // --- BANNER ---
+            buildConfigField "String", "banner_splash_id", "\"\""
+            buildConfigField "String", "banner_splash_mrec_id", "\"\""
+            buildConfigField "String", "banner_intro_id", "\"\""
+            buildConfigField "String", "banner_home_id", "\"\""
+
+// --- NATIVE ---
+            buildConfigField "String", "native_language_id", "\"\""
+            buildConfigField "String", "native_intro_id", "\"\""
+            buildConfigField "String", "native_full_id", "\"\""
+            buildConfigField "String", "native_function_id", "\"\""
+            buildConfigField "String", "native_history_id", "\"\""
+
+// --- INTER ---
+            buildConfigField "String", "inter_splash_id", "\"\""
+            buildConfigField "String", "inter_resume_id", "\"\""
+            buildConfigField "String", "inter_getstart_id", "\"\""
+            buildConfigField "String", "inter_function_id", "\"\""
+            buildConfigField "String", "inter_unlock_id", "\"\""
+
+            /////////////////////////////// /////////////////////////////
+
+            buildConfigField("String", "max_banner", "\"\"")
+            buildConfigField("String", "max_native", "\"\"")
+            buildConfigField("String", "max_inter", "\"\"")
+            buildConfigField("String", "max_openads", "\"\"")
+            buildConfigField("String", "max_reward", "\"\"")
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.15.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.lifecycle:lifecycle-process:2.8.7'
+    implementation project(path: ':libads')
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.google.android.ads:mediation-test-suite:3.0.0'
+    implementation 'androidx.activity:activity-ktx:1.10.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+    // view model - live data - navigation
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.7'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.8.7"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.8.7"
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.8.9'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.8.9'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0'
+
+    // coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+
+    // lottie
+    implementation 'com.airbnb.android:lottie:6.4.0'
+
+    // viewpager
+    implementation 'androidx.viewpager2:viewpager2:1.1.0'
+
+    implementation "androidx.recyclerview:recyclerview:1.4.0"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7"
+
+    implementation("com.tbuonomo:dotsindicator:5.0")
+
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+    // gson
+    implementation 'com.google.code.gson:gson:2.11.0'
+
+    // room - database
+    implementation("androidx.room:room-runtime:2.6.1")
+    //noinspection KaptUsageInsteadOfKsp
+    ksp 'androidx.room:room-compiler:2.6.1'
+    implementation("androidx.room:room-ktx:2.6.1")
+
+    //hilt
+    implementation 'com.google.dagger:hilt-android:2.51.1'
+    ksp 'com.google.dagger:hilt-android-compiler:2.51.1'
+
+    //animation gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.28'
+
+    //KDownloader
+    implementation 'com.github.varungulatii:Kdownloader:1.0.4'
+
+    // Retrofit + Gson
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation "com.squareup.retrofit2:retrofit-mock:2.9.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
+
+    //okkhttp
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.6'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.6'
+
+
+    /*-------------------Ads neko sdk-------------------  */
+    /*GDPR - Cosent Admob EEA*/
+    implementation("com.google.android.ump:user-messaging-platform:3.2.0")
+    implementation("com.google.android.gms:play-services-ads:24.1.0")
+    implementation("com.applovin:applovin-sdk:13.1.0")
+
+    implementation("com.google.android.play:review-ktx:2.0.2")
+
+    implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation("com.google.firebase:firebase-crashlytics-ktx")
+    implementation("com.google.firebase:firebase-config-ktx")
+}

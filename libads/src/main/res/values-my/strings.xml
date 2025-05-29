@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ကြော်ငြာများတင်နေသည်၊ ခဏစောင့်ပါ...</string>
+  <string name="this_action_contains_ads">(ဤလုပ်ဆောင်ချက်တွင် ကြော်ငြာများ ပါဝင်နိုင်သည်)</string>
+  <string name="is_running_please_wait">လည်ပတ်နေသည်၊ ကျေးဇူးပြု၍ စောင့်ပါ။</string>
+  <string name="welcome_back">ကြိုဆိုပါတယ်</string>
+  <string name="you_need_update">ဤအက်ပ်ကိုအသုံးပြုရန် သင်သည် အပ်ဒိတ်လုပ်ရန် လိုအပ်သည်\"</string>
+  <string name="update_faile">အပ်ဒိတ် မအောင်မြင်ပါ၊ ကျေးဇူးပြု၍ ထပ်ကြိုးစားပါ\"</string>
+</resources>

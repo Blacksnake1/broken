@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">რეკლამები იტვირთება, გთხოვთ დაელოდოთ…</string>
+  <string name="this_action_contains_ads">(ეს მოქმედება შეიძლება შეიცავდეს რეკლამებს)</string>
+  <string name="is_running_please_wait">მუშაობს, გთხოვთ დაელოდოთ!</string>
+  <string name="welcome_back">ᲙᲔᲗᲘᲚᲘ ᲘᲧᲝᲡ ᲗᲥᲕᲔᲜᲘ ᲓᲐᲑᲠᲣᲜᲔᲑᲐ</string>
+  <string name="you_need_update">ამ აპის გამოსაყენებლად საჭიროა განახლება\"</string>
+  <string name="update_faile">განახლება ვერ მოხერხდა, გთხოვთ სცადოთ ხელახლა\"</string>
+</resources>

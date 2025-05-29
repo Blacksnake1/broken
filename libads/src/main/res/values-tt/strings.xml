@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Реклама йөкләү, зинһар, көтегез…</string>
+  <string name="this_action_contains_ads">(Бу акция реклама булырга мөмкин)</string>
+  <string name="is_running_please_wait">Эшли, зинһар, көтегез!</string>
+  <string name="welcome_back">КИРЕГӘ РӘХИМ ИТ</string>
+  <string name="you_need_update">Бу кушымтаны куллану өчен сезгә яңартырга кирәк \"</string>
+  <string name="update_faile">Яңарту уңышсыз булды, зинһар, кабатлап карагыз \"</string>
+</resources>

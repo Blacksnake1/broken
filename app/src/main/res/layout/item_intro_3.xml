@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/intro_3"
+        app:layout_constraintBottom_toTopOf="@id/vgDenis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgDenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/adMobNativeAds">
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_6"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="3"
+            android:paddingEnd="8dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/hi_welcome_to_our_broken_screens"
+            android:textColor="#FBFBFB"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintBottom_toTopOf="@id/tv_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/wish_you_have_a_great_experience"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_14"
+            app:layout_constraintBottom_toTopOf="@id/btnStartNow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/btnStartNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_ra8_gra"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/dp_16"
+            android:paddingVertical="@dimen/dp_6"
+            android:text="@string/startnow"
+            android:textAllCaps="true"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_24"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.gianghv.admob.CustomNativeAdsCrankEffect
+        android:id="@+id/adMobNativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

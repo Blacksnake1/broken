@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Wrthi\'n llwytho hysbysebion, arhoswch…</string>
+  <string name="this_action_contains_ads">( Gall y weithred hon gynnwys hysbysebion )</string>
+  <string name="is_running_please_wait">Yn rhedeg, arhoswch os gwelwch yn dda!</string>
+  <string name="welcome_back">CROESO NOL</string>
+  <string name="you_need_update">Mae angen diweddaru i ddefnyddio\'r ap hwn\"</string>
+  <string name="update_faile">Methodd y diweddariad, ceisiwch eto\"</string>
+</resources>

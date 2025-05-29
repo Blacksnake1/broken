@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading praeconium, placet expectare ...</string>
+  <string name="this_action_contains_ads">( Haec actio non continet praeconium )</string>
+  <string name="is_running_please_wait">Currit, placet expectare!</string>
+  <string name="welcome_back">RECIPIO</string>
+  <string name="you_need_update">Vos postulo ut hoc app ut update \"</string>
+  <string name="update_faile">Renovatio defecit, iterum conare \"</string>
+</resources>

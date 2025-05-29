@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Lued Annoncen, waart w.e.g. ...</string>
+  <string name="this_action_contains_ads">(Dës Aktioun kann Annoncen enthalen)</string>
+  <string name="is_running_please_wait">Leeft, wait weg!</string>
+  <string name="welcome_back">WËLLKOMM ZRÉCK</string>
+  <string name="you_need_update">Dir musst aktualiséieren fir dës App ze benotzen\"</string>
+  <string name="update_faile">Update gescheitert, probéiert w.e.g. nach eng Kéier\"</string>
+</resources>

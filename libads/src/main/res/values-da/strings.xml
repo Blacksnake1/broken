@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Indlæser annoncer, vent venligst …</string>
+  <string name="this_action_contains_ads">(Denne handling kan indeholde annoncer)</string>
+  <string name="is_running_please_wait">Kører, vent venligst!</string>
+  <string name="welcome_back">VELKOMMEN TILBAGE</string>
+  <string name="you_need_update">Du skal opdatere for at bruge denne app\"</string>
+  <string name="update_faile">Opdatering mislykkedes, prøv venligst igen\"</string>
+</resources>

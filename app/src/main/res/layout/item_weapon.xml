@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_6">
+
+    <ImageView
+        android:id="@+id/bgItemWeapon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/theme_gun_unselected"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingImage"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_circle" />
+    <ImageView
+        android:id="@+id/ivItemWeapon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dp_20"
+        android:visibility="invisible"
+        android:src="@drawable/shotgun"
+        app:layout_constraintBottom_toBottomOf="@id/bgItemWeapon"
+        app:layout_constraintEnd_toEndOf="@id/bgItemWeapon"
+        app:layout_constraintStart_toStartOf="@id/bgItemWeapon"
+        app:layout_constraintTop_toTopOf="@id/bgItemWeapon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

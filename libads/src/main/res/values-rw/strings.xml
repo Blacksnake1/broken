@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Gupakira amatangazo, nyamuneka utegereze…</string>
+  <string name="this_action_contains_ads">(Iki gikorwa gishobora kubamo amatangazo)</string>
+  <string name="is_running_please_wait">Iriruka, nyamuneka utegereze!</string>
+  <string name="welcome_back">MURAKAZA INYUMA</string>
+  <string name="you_need_update">Ugomba kuvugurura kugirango ukoreshe iyi porogaramu \"</string>
+  <string name="update_faile">Kuvugurura byarananiranye, nyamuneka gerageza nanone \"</string>
+</resources>

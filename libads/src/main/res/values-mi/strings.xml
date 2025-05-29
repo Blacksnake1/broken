@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">E uta ana i nga panui, tatari koa…</string>
+  <string name="this_action_contains_ads">(Kei roto i tenei mahi nga panui)</string>
+  <string name="is_running_please_wait">Kei te rere, tatari koa!</string>
+  <string name="welcome_back">Nau mai hoki mai</string>
+  <string name="you_need_update">Me whakahou koe ki te whakamahi i tenei taupānga\"</string>
+  <string name="update_faile">I rahua te whakahou, ngana ano\"</string>
+</resources>

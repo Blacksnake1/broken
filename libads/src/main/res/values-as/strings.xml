@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">বিজ্ঞাপন লোড কৰি আছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক ...</string>
+  <string name="this_action_contains_ads">( এই কাৰ্য্যত বিজ্ঞাপন থাকিব পাৰে )</string>
+  <string name="is_running_please_wait">চলি আছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক!</string>
+  <string name="welcome_back">পুনৰ স্বাগতম</string>
+  <string name="you_need_update">এই এপটো ব্যৱহাৰ কৰিবলৈ আপডেট কৰিব লাগিব\"</string>
+  <string name="update_faile">আপডেট বিফল, অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক\"</string>
+</resources>

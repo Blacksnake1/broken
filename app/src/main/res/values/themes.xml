@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BrokenGlass" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="Theme.BrokenGlass" parent="Base.Theme.BrokenGlass">
+<!--        <item name="android:windowEnableSplitTouch">false</item>-->
+<!--        <item name="android:splitMotionEvents">false</item>-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+        <item name="android:fitsSystemWindows">true</item>
+<!--        <item name="android:statusBarColor">@color/black</item>-->
+
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--        <item name="android:windowContentOverlay">@null</item>-->
+        <!--        <item name="android:windowNoTitle">true</item>-->
+        <!--        <item name="android:windowIsFloating"> false</item>-->
+        <!--        <item name="android:backgroundDimEnabled">false</item>-->
+
+    </style>
+
+    <style name="SplashThemeNew" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splashscreen</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>

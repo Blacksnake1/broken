@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">መወዓውዒታት ኣብ ምጽዓን፣ በጃኹም ተጸበዩ ...</string>
+  <string name="this_action_contains_ads">( እዚ ተግባር መወዓውዒታት ክሕዝ ይኽእል )</string>
+  <string name="is_running_please_wait">ይጎዪ ኣሎ፡ በጃኹም ተጸበዩ!</string>
+  <string name="welcome_back">እንቋዕ ብደሓን መጻእኩም</string>
+  <string name="you_need_update">ነዚ ኣፕ ንምጥቃም update ክትገብሩ ኣለኩም\"</string>
+  <string name="update_faile">Update ኣይተዓወተን፣ በጃኹም ደጊምኩም ፈትኑ\"</string>
+</resources>

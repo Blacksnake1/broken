@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Загрузка аб\'яў, пачакайце...</string>
+  <string name="this_action_contains_ads">(Гэта дзеянне можа ўтрымліваць рэкламу)</string>
+  <string name="is_running_please_wait">Працуе, калі ласка, пачакайце!</string>
+  <string name="welcome_back">Сардэчна запрашаем</string>
+  <string name="you_need_update">Вам неабходна абнавіць, каб выкарыстоўваць гэта дадатак\"</string>
+  <string name="update_faile">Збой абнаўлення, паспрабуйце яшчэ раз\"</string>
+</resources>

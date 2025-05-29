@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">දැන්වීම් පූරණය වෙමින්, කරුණාකර රැඳී සිටින්න…</string>
+  <string name="this_action_contains_ads">(මෙම ක්‍රියාවෙහි දැන්වීම් අඩංගු විය හැක)</string>
+  <string name="is_running_please_wait">ධාවනය වේ, කරුණාකර රැඳී සිටින්න!</string>
+  <string name="welcome_back">ආපසු සාදරයෙන් පිළිගනිමු</string>
+  <string name="you_need_update">මෙම යෙදුම භාවිතා කිරීමට ඔබ යාවත්කාලීන කළ යුතුය\"</string>
+  <string name="update_faile">යාවත්කාලීන කිරීම අසාර්ථක විය, කරුණාකර නැවත උත්සාහ කරන්න\"</string>
+</resources>

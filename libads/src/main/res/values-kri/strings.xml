@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading ads, duya wet ...</string>
+  <string name="this_action_contains_ads">( Dis akshɔn kin gɛt advays dɛn )</string>
+  <string name="is_running_please_wait">De rɔn, duya wet!</string>
+  <string name="welcome_back">WƐLKƆM BAK</string>
+  <string name="you_need_update">Yu nid fɔ ɔpdet fɔ yuz dis ap\".</string>
+  <string name="update_faile">Update fail, duya tray bak\".</string>
+</resources>

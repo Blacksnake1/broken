@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/dp_19">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dp_10">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_35383f"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dp_10">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_50"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/ivPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_20"
+                android:fontFamily="@font/roboto_medium"
+                android:foreground="@drawable/bg_animation_click"
+                android:gravity="center|start"
+                android:text="@string/you_want_delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_permit_manually"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:background="@drawable/bg_ra8_gra"
+                android:fontFamily="@font/roboto_medium"
+                android:foreground="@drawable/bg_animation_click"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/dp_16"
+                android:paddingVertical="@dimen/dp_8"
+                android:text="@string/delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_13"
+                app:layout_constraintBottom_toBottomOf="@id/btn_cancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guide_50"
+                app:layout_constraintTop_toTopOf="@id/btn_cancel" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_20"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:background="@drawable/bg_ra5"
+                android:fontFamily="@font/roboto_medium"
+                android:foreground="@drawable/bg_animation_click"
+                android:gravity="center"
+                android:padding="@dimen/dp_8"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_13"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/guide_50"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPhone" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

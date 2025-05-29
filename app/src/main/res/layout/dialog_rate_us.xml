@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:background="@drawable/bg_ra8_gra"
+        android:backgroundTint="@color/gray_35383f"
+        android:clickable="false"
+        android:paddingVertical="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/container_star"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintDimensionRatio="271:107"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/btn_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:src="@drawable/ic_cancel"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintDimensionRatio="271:107"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/do_you_like_app"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintTop_toBottomOf="@id/container_star" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:text="@string/des_rate"
+            android:textColor="#CBCBCB"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+
+        <TextView
+            android:id="@+id/btn_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_39"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_ra50_gra"
+            app:fontFamily="@font/roboto_medium"
+            android:foreground="@drawable/bg_animation_click"
+            android:gravity="center"
+            android:paddingVertical="@dimen/dp_20"
+            android:text="@string/yes_i_like"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintTop_toBottomOf="@id/tv_status" />
+
+
+        <TextView
+            android:id="@+id/btn_later"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_39"
+            android:layout_marginTop="@dimen/dp_12"
+            android:background="@drawable/bg_stroke_50"
+            app:fontFamily="@font/roboto_medium"
+            android:foreground="@drawable/bg_animation_click"
+            android:gravity="center"
+            android:paddingVertical="@dimen/dp_20"
+            android:text="@string/not_really"
+            android:textColor="@color/yellow_ff7c05"
+            android:textSize="@dimen/dp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_rate" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

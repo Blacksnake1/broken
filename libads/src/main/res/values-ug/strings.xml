@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ئېلان يۈكلەۋاتىدۇ ، ساقلاپ تۇرۇڭ…</string>
+  <string name="this_action_contains_ads">(بۇ ھەرىكەت ئېلاننى ئۆز ئىچىگە ئالىدۇ)</string>
+  <string name="is_running_please_wait">ئىجرا بولۇۋاتىدۇ ، ساقلاپ تۇرۇڭ!</string>
+  <string name="welcome_back">WELCOME BACK</string>
+  <string name="you_need_update">بۇ ئەپنى ئىشلىتىش ئۈچۈن يېڭىلىشىڭىز كېرەك ».</string>
+  <string name="update_faile">يېڭىلاش مەغلۇپ بولدى ، قايتا سىناڭ ».</string>
+</resources>

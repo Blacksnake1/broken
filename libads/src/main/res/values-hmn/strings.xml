@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Loading ads, thov tos…</string>
+  <string name="this_action_contains_ads">(Qhov kev txiav txim no tuaj yeem muaj kev tshaj tawm)</string>
+  <string name="is_running_please_wait">Tab tom khiav, thov tos!</string>
+  <string name="welcome_back">UA TSAUG NTAU</string>
+  <string name="you_need_update">Koj yuav tsum hloov kho kom siv cov app no ​​\"</string>
+  <string name="update_faile">Hloov tshiab ua tsis tiav, thov rov sim dua\"</string>
+</resources>

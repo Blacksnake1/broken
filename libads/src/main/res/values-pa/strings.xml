@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ਇਸ਼ਤਿਹਾਰ ਲੋਡ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ, ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ…</string>
+  <string name="this_action_contains_ads">(ਇਸ ਕਾਰਵਾਈ ਵਿੱਚ ਵਿਗਿਆਪਨ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ)</string>
+  <string name="is_running_please_wait">ਚੱਲ ਰਿਹਾ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ!</string>
+  <string name="welcome_back">ਵਾਪਸ ਸਵਾਗਤ</string>
+  <string name="you_need_update">ਤੁਹਾਨੂੰ ਇਸ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ\"</string>
+  <string name="update_faile">ਅੱਪਡੇਟ ਅਸਫਲ ਰਿਹਾ, ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ\"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Ku layicha swinavetiso, hi kombela u yima ...</string>
+  <string name="this_action_contains_ads">( Xiendlo lexi xi nga va na swinavetiso )</string>
+  <string name="is_running_please_wait">Yi tsutsuma, ndzi kombela u yima!</string>
+  <string name="welcome_back">MI AMUKELEKILE HI VUYA</string>
+  <string name="you_need_update">U fanele u update ku tirhisa app leyi\".</string>
+  <string name="update_faile">Update yi tsandzekile, ndzi kombela u ringeta nakambe\".</string>
+</resources>

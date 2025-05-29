@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_1d1c1c">#1D1C1C</color>
+    <color name="black_opa13">#431D1C1C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="text_color_app">#FFFFFFFF</color>
+    <color name="gray_35383f">#35383F</color>
+    <color name="gray_535353">#535353</color>
+    <color name="gray_c5c8cf">#C5C8CF</color>
+    <color name="gray_7b7c80">#7B7C80</color>
+    <color name="gray_787878">#787878</color>
+    <color name="gray_c0c7ce">#C0C7CE</color>
+    <color name="gray_f0f0f0">#F0F0F0</color>
+    <color name="gray_a7a7a7">#A7A7A7</color>
+    <color name="gray_9e9e9e">#9e9e9e</color>
+    <color name="gray_9f9f9f">#9f9f9f</color>
+    <color name="gray_8e8e8e">#8e8e8e</color>
+    <color name="yellow_fdb818">#FDB818</color>
+    <color name="yellow_ea7103">#EA7103</color>
+    <color name="yellow_94653a">#94653A</color>
+    <color name="yellow_ff7c05">#FF7C05</color>
+    <color name="yellow_27ff7c05">#27FF7C05</color>
+    <color name="puper_27ff7c05">#2764099C</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">正在加载广告，请稍候...</string>
+  <string name="this_action_contains_ads">（此操作可能包含广告）</string>
+  <string name="is_running_please_wait">正在运行，请稍等！</string>
+  <string name="welcome_back">欢迎回来</string>
+  <string name="you_need_update">您需要更新才能使用此应用程序”</string>
+  <string name="update_faile">更新失败，请重试”</string>
+</resources>

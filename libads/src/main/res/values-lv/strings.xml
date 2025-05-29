@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Notiek reklāmu ielāde, lūdzu, uzgaidiet…</string>
+  <string name="this_action_contains_ads">(Šī darbība var ietvert reklāmas)</string>
+  <string name="is_running_please_wait">Darbojas, lūdzu, uzgaidiet!</string>
+  <string name="welcome_back">LAIPNI ATGRIEZTIES</string>
+  <string name="you_need_update">Lai izmantotu šo lietotni, jums ir jāatjaunina</string>
+  <string name="update_faile">Atjaunināšana neizdevās, lūdzu, mēģiniet vēlreiz\"</string>
+</resources>

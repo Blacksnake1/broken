@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Mahabat ýüklenýär, garaşyň ...</string>
+  <string name="this_action_contains_ads">(Bu hereket mahabatlary öz içine alyp biler)</string>
+  <string name="is_running_please_wait">Işleýär, garaşyň!</string>
+  <string name="welcome_back">GELI ..</string>
+  <string name="you_need_update">Bu programmany ulanmak üçin täzelemeli \"</string>
+  <string name="update_faile">Täzelenme şowsuz boldy, gaýtadan synanyşyň \"</string>
+</resources>

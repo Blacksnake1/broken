@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">กำลังโหลดโฆษณา กรุณารอสักครู่...</string>
+  <string name="this_action_contains_ads">(การกระทำนี้อาจมีโฆษณา)</string>
+  <string name="is_running_please_wait">กำลังทำงานอยู่ กรุณารอสักครู่!</string>
+  <string name="welcome_back">ยินดีต้อนรับกลับ</string>
+  <string name="you_need_update">คุณต้องอัปเดตเพื่อใช้แอพนี้\"</string>
+  <string name="update_faile">การอัปเดตล้มเหลว โปรดลองอีกครั้ง\"</string>
+</resources>

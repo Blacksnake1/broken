@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Ngamuat iklan, mangga antosan…</string>
+  <string name="this_action_contains_ads">(Aksi ieu tiasa ngandung iklan)</string>
+  <string name="is_running_please_wait">Keur ngajalankeun, mangga antosan!</string>
+  <string name="welcome_back">WILUJENG SUMPING</string>
+  <string name="you_need_update">Anjeun kedah ngapdet pikeun ngagunakeun aplikasi ieu\"</string>
+  <string name="update_faile">Update gagal, mangga cobian deui\"</string>
+</resources>

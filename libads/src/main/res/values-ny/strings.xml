@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Tikutsegula zotsatsa, chonde dikirani ...</string>
+  <string name="this_action_contains_ads">( Izi zitha kukhala ndi zotsatsa)</string>
+  <string name="is_running_please_wait">Ikuyenda, chonde dikirani!</string>
+  <string name="welcome_back">TAKULANDILANINSO</string>
+  <string name="you_need_update">Muyenera kusintha kuti mugwiritse ntchito pulogalamuyi\"</string>
+  <string name="update_faile">Kusintha kwalephera, chonde yesaninso\"</string>
+</resources>

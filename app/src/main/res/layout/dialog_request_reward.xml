@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_loading_open_ads">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_20"
+        android:background="@drawable/bg_ra8_gra"
+        android:backgroundTint="@color/gray_35383f"
+        android:paddingBottom="@dimen/dp_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/unlock_wallpaper"
+            android:textColor="@color/text_color_app"
+            android:textSize="@dimen/dp_18"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvReview"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10"
+            app:layout_constraintDimensionRatio="1:2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_rate">
+
+            <ImageView
+                android:id="@+id/ivReview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvWatch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/watch_a_short_video_ad_to_unlock_wallpaper"
+            android:textColor="@color/text_color_app"
+            android:textSize="@dimen/dp_16"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cvReview" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vetical_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnWatchAds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_marginEnd="@dimen/dp_30"
+            android:background="@drawable/bg_ra8_gra"
+            android:foreground="@drawable/bg_animation_click"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline_vetical_50"
+            app:layout_constraintTop_toBottomOf="@id/tvWatch">
+
+            <ImageView
+                android:id="@+id/icWatchAds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/dp_6"
+                android:src="@drawable/ic_camera"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvWatchAds"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvWatchAds"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_4"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/roboto_medium"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="1"
+                android:paddingVertical="@dimen/dp_12"
+                android:text="@string/watch_ads"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_16"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@id/icWatchAds"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/btnCancel"-->
+        <!--            android:layout_width="@dimen/dp_40"-->
+        <!--            android:layout_height="@dimen/dp_40"-->
+        <!--            android:layout_marginEnd="16dp"-->
+        <!--            android:foreground="@drawable/bg_animation_click"-->
+        <!--            android:padding="@dimen/dp_10"-->
+        <!--            android:src="@drawable/ic_cancel"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/tv_title_rate"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@id/tv_title_rate"/>-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/dp_30"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:background="@drawable/bg_ra8_gra"
+            android:backgroundTint="@color/black_1d1c1c"
+            android:fontFamily="@font/roboto_medium"
+            android:foreground="@drawable/bg_animation_click"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:paddingVertical="@dimen/dp_12"
+            android:singleLine="true"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/gray_7b7c80"
+            android:textSize="@dimen/dp_16"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btnWatchAds"
+            app:layout_constraintEnd_toStartOf="@id/guideline_vetical_50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/btnWatchAds" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

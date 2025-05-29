@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Hleður auglýsingum, vinsamlegast bíddu…</string>
+  <string name="this_action_contains_ads">(Þessi aðgerð getur innihaldið auglýsingar)</string>
+  <string name="is_running_please_wait">Er í gangi, vinsamlegast bíddu!</string>
+  <string name="welcome_back">VELKOMINN AFTUR</string>
+  <string name="you_need_update">Þú þarft að uppfæra til að nota þetta forrit\"</string>
+  <string name="update_faile">Uppfærsla mistókst, vinsamlegast reyndu aftur\"</string>
+</resources>

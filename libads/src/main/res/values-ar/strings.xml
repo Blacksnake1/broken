@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">جارٍ تحميل الإعلانات، برجاء الانتظار...</string>
+  <string name="this_action_contains_ads">(يمكن أن يحتوي هذا الإجراء على إعلانات)</string>
+  <string name="is_running_please_wait">قيد التشغيل، يرجى الانتظار!</string>
+  <string name="welcome_back">مرحبًا بعودتك</string>
+  <string name="you_need_update">تحتاج إلى التحديث لاستخدام هذا التطبيق\"</string>
+  <string name="update_faile">فشل التحديث، يرجى المحاولة مرة أخرى\"</string>
+</resources>

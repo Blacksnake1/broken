@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nekosoft.brokenglass.ui.EffectWeaponActivity">
+    <RelativeLayout
+        android:id="@+id/paintview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/fabClose"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toBottomOf="@id/fab"
+        app:layout_constraintEnd_toEndOf="@id/fab"
+        app:layout_constraintStart_toStartOf="@id/fab"
+        app:layout_constraintTop_toTopOf="@id/fab" />
+
+     <ImageView
+        android:id="@+id/fabBack"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:src="@drawable/ic_back_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/fab"
+        app:layout_constraintEnd_toEndOf="@id/fab"
+        app:layout_constraintStart_toStartOf="@id/fab"
+        app:layout_constraintTop_toTopOf="@id/fab" />
+
+    <ImageView
+        android:id="@+id/fabReset"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:src="@drawable/ic_reset"
+        app:layout_constraintBottom_toBottomOf="@id/fab"
+        app:layout_constraintEnd_toEndOf="@id/fab"
+        app:layout_constraintStart_toStartOf="@id/fab"
+        app:layout_constraintTop_toTopOf="@id/fab" />
+
+    <ImageView
+        android:id="@+id/fab"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@drawable/ic_hamburger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

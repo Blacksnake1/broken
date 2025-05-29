@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Inapakia matangazo, tafadhali subiri...</string>
+  <string name="this_action_contains_ads">(Kitendo hiki kinaweza kuwa na matangazo)</string>
+  <string name="is_running_please_wait">Inaendeshwa, tafadhali subiri!</string>
+  <string name="welcome_back">KARIBU TENA</string>
+  <string name="you_need_update">Unahitaji kusasisha ili kutumia programu hii\"</string>
+  <string name="update_faile">Usasishaji haukufaulu, tafadhali jaribu tena\"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">광고를 로드하는 중입니다. 잠시 기다려 주십시오…</string>
+  <string name="this_action_contains_ads">( 이 작업에는 광고가 포함될 수 있습니다.)</string>
+  <string name="is_running_please_wait">실행 중입니다. 잠시 기다려 주세요.</string>
+  <string name="welcome_back">돌아온 것을 환영합니다</string>
+  <string name="you_need_update">이 앱을 사용하려면 업데이트가 필요합니다\"</string>
+  <string name="update_faile">업데이트에 실패했습니다. 다시 시도해 주세요\'</string>
+</resources>

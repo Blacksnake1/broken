@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">טוען מודעות, אנא המתן...</string>
+  <string name="this_action_contains_ads">(פעולה זו יכולה להכיל מודעות)</string>
+  <string name="is_running_please_wait">פועל, אנא המתן!</string>
+  <string name="welcome_back">ברוך שובך</string>
+  <string name="you_need_update">עליך לעדכן כדי להשתמש באפליקציה הזו\"</string>
+  <string name="update_faile">העדכון נכשל, אנא נסה שוב\"</string>
+</resources>

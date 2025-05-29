@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">விளம்பரங்களை ஏற்றுகிறது, காத்திருக்கவும்…</string>
+  <string name="this_action_contains_ads">(இந்தச் செயலில் விளம்பரங்கள் இருக்கலாம்)</string>
+  <string name="is_running_please_wait">ஓடுகிறது, காத்திருக்கவும்!</string>
+  <string name="welcome_back">மீண்டும் வருக</string>
+  <string name="you_need_update">இந்த பயன்பாட்டைப் பயன்படுத்த நீங்கள் புதுப்பிக்க வேண்டும்\"</string>
+  <string name="update_faile">புதுப்பிப்பு தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்\"</string>
+</resources>

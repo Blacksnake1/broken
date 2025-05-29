@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Caricamentu di l\'annunzii, per piacè aspettate...</string>
+  <string name="this_action_contains_ads">(Questa azione pò cuntene publicità)</string>
+  <string name="is_running_please_wait">Hè in corso, per piacè aspetta!</string>
+  <string name="welcome_back">BENVENUTA DI RITORNU</string>
+  <string name="you_need_update">Avete bisognu di aghjurnà per aduprà sta app\"</string>
+  <string name="update_faile">L\'aghjurnamentu hà fiascatu, per piacè pruvate di novu \"</string>
+</resources>

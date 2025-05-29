@@ -1,0 +1,147 @@
+<resources>
+    <!--    <string name="app_id" translatable="false">ca-app-pub-4188057984229952~8859423836</string>-->
+    <string name="setting" translatable="false">Settings</string>
+    <string name="wallpaper" translatable="false">Wallpaper</string>
+    <string name="broken_screens" translatable="false">Broken Screens</string>
+    <string name="fire_screens" translatable="false">Fire Screens</string>
+    <string name="recently" translatable="false">History</string>
+    <string name="select_weapon" translatable="false">Select Weapon</string>
+    <string name="app_name" translatable="false">Broken Screen</string>
+    <string name="not_provide" translatable="false">Not Provide</string>
+    <string name="not_have_information" translatable="false">Not have information</string>
+    <string name="language">Language</string>
+    <string name="apply">Apply</string>
+    <string name="des_intro_1">Prank realistic, sharp broken screen sounds and effects</string>
+    <string name="des_intro_2">Choose your favorite Fire Screen effect to prank your friends. Experience now</string>
+    <string name="des_intro_3">Experience the sound and shooting of many types of guns - It\'s fascinating</string>
+    <string name="title_intro_1">Broken Screen Effect</string>
+    <string name="title_intro_2">Prank Screen</string>
+    <string name="title_intro_3">Destroy Screen</string>
+    <string name="permission_not_again">Please accept permission to save photos to your device.</string>
+    <string name="select_permission">Select Permissions -> Enable permission</string>
+    <string name="permit_manually">Permit manually</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="start">START</string>
+    <string name="startnow">START NOW</string>
+    <string name="touch">touch</string>
+    <string name="shake">shake</string>
+    <string name="turn_off_broken_screen">Turn off broken screen</string>
+    <string name="appear_on_top">Appear on top</string>
+    <string name="will_not_user">Blue Light Filter will not use this permission for any other usage or read your screen content.</string>
+    <string name="if_you_agree">If you agree to use, please click the "Grant" button</string>
+    <string name="Required_for">Required for Blue Light Filter to adjust the brightness and color temperature.</string>
+    <string name="agree">Grant</string>
+    <string name="click_to_remove">Click the notification to remove broken screen effect.</string>
+    <string name="if_you_deny_permission_you_cannot_use_this_service">If you deny permission you cannot use this service</string>
+    <string name="please_enable_permission_at_settings_notifications"><![CDATA[Please enable permission at Settings >> Appear on top]]></string>
+    <string name="click_the_notification_to_remove_broken_screen_efect">Click the notification to remove broken screen effect.</string>
+    <string name="don_t_show_again">Don’t show again</string>
+    <string name="crank_effect">CRANK EFFECT</string>
+    <string name="home_screen">Home screen</string>
+    <string name="lock_screen">Lock screen</string>
+    <string name="home_screen_lock_screen"><![CDATA[Home screen & Lock screen]]></string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="fire_blow">FIRE (BLOW)</string>
+    <string name="fire_touch">FIRE (TOUCH)</string>
+    <string name="electric">ELECTRIC</string>
+    <string name="there_are_no_recently_used_wallpaper">There are no recently used wallpaper</string>
+    <string name="activity_recStartErr">Recorder</string>
+    <string name="activity_recBusyErr">lỗi không ghi âm được</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="please_grant">Please grant audio permission to use the function</string>
+    <string name="you_want_delete">Are you sure you want to delete ?</string>
+    <string name="ok">OK</string>
+    <string name="languages">Language</string>
+    <string name="share">Share app</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate">Rate app</string>
+    <string name="policy">Privacy policy</string>
+    <string name="if_you_have">If you have any problem, please tell us. Do not rush to rate low on CH play.</string>
+    <string name="we_will">We will record and update as soon as possible.</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="send">Send</string>
+    <string name="error_network">Network error! Please try again</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_on_google">Rate On Google Play</string>
+
+    <string name="title_1_star">Oh No!</string>
+    <string name="content_1_star">We’re sorry you had a bad experience. Please leave us some feedback.</string>
+    <string name="content_2_star">We understand you are not happy with the service you received. Please leave us some feedback.</string>
+    <string name="content_3_star">"We would like the opportunity to investigate your feedback further. "</string>
+    <string name="title_4_star">So Amazing!</string>
+    <string name="content_4_star">Thank you so much for the wonderful review.</string>
+    <string name="title_5_star">We like you too!</string>
+    <string name="content_5_star">Thank you so much for taking the time to leave us your review.</string>
+    <string name="maybe">Maybe Later</string>
+    <string name="content_0_star">We are working hard for a better user experience. We’d greatly appreciate if you can rate us.</string>
+    <string name="thank_you_for_rating_us">Thank you for rating us</string>
+    <string name="set_wallpaper_succesfull">Set wallpaper successfully!</string>
+    <string name="delete">Delete</string>
+    <string name="how_to_turn_off_crash_effect">HOW TO TURN OFF CRASH EFFECT ?</string>
+    <string name="click_notification_to_remove_the_crash_effect">Click <font color="#FF7C05">Notification</font> to remove the crash effect</string>
+    <string name="return_to_app_broken_screen">Return to app broken screen and turn off  <font color="#FF7C05">Switch button</font> to remove broken screen effect</string>
+    <string name="reject_permission">If you reject permission, you can not use this service</string>
+    <string name="please_turn_on_setting">Please turn on permission at <font color="#1D1C1C"><b>[Setting] > [Notification]</b></font>  </string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="fill_email">Please enter valid text</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="how_to_turn_off">How to turn off?</string>
+    <string name="if_you_want">If you want to remove effect, please return to Broken Screen app.</string>
+    <string name="gotit">got it</string>
+    <string name="the_best_we_can_get">The best we can get ;)</string>
+    <string name="you_need_to_select_at_least_one_photo">You need to select at least one photo</string>
+    <string name="feedback_or_suggestion">Feedback or suggestion</string>
+    <string name="click_bACK_again">Please click BACK again to exit</string>
+    <string name="grant">Grant</string>
+    <string name="ok_got_it">ok,got it</string>
+    <string name="is_running">is running</string>
+    <string name="touch_here_to_turn_off">Touch here to turn off</string>
+    <string name="unlock_wallpaper">Unlock Wallpaper</string>
+    <string name="watch_a_short_video_ad_to_unlock_wallpaper">Watch a short video Ad to unlock wallpaper</string>
+    <string name="watch_ads">Watch Ads</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="please_check_your_internet">Please check your internet connection.</string>
+    <string name="do_you_like_app">Do you like our application so far?</string>
+    <string name="des_rate">Let us know and help us improve the experience for users like you</string>
+    <string name="yes_i_like">Yes, I like it</string>
+    <string name="not_really">Not really</string>
+    <string name="install_broken_wallpaper_now">Install broken wallpaper now</string>
+    <string name="please_turn_off_the_current_broken_screen">Please turn off the current broken screen</string>
+    <string name="delete_wallpaper_succesfull">Delete wallpaper successfully!</string>
+    <string name="title_noti_1">Shocked when the screen broken</string>
+    <string name="title_noti_2">Choose fire appears on the screen, lightning splashes or the phone screen shatters</string>
+    <string name="title_noti_3">Many cool new things have just been updated in the Brocken Screens app</string>
+    <string name="desc_noti_1">Experience fun pranks</string>
+    <string name="desc_noti_2">Install the app and prank your friends now</string>
+    <string name="desc_noti_3">Experience now</string>
+    <string name="send_notifi">1. Send Notification permission is used for management and operation when the application is running</string>
+    <string name="appear_on_top_per">2. Appear On Top permission is used to display broken screen</string>
+    <string name="continue_">Continue</string>
+    <string name="to_not_miss">To not miss the latest info of the application through the notification.</string>
+    <string name="please_grant_permission">Please grant permission</string>
+    <string name="current_language">Current Language</string>
+    <string name="all_languages">All Language</string>
+    <string name="wallpaper_downloading_please_wait">Wallpaper downloading, please wait....</string>
+    <string name="download_fail">Download failed</string>
+    <string name="destroy">DESTROY</string>
+    <string name="set_wallpaper_error">Set wallpaper error!</string>
+    <string name="downloading">Downloading… </string>
+    <string name="broken_screen_is_">Broken Screen is ready to use. Please click button to continue</string>
+    <string name="please_select_any_weapon">Please select any weapon</string>
+    <string name="done">Done</string>
+    <string name="please_choose_language">Please choose the language you want to use.</string>
+    <string name="hi_welcome_to_our_broken_screens">Hi, Welcome to our Broken Screens</string>
+    <string name="wish_you_have_a_great_experience">Wish you have a great experience!</string>
+    <string name="initializing_language">Initializing language</string>
+    <string name="preview">Preview</string>
+    <string name="download_successful">Download successfull</string>
+
+
+</resources>

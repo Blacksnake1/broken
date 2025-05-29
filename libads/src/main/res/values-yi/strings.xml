@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">לאָודינג אַדס, ביטע וואַרטן ...</string>
+  <string name="this_action_contains_ads">(די אַקציע קענען אַנטהאַלטן אַדס)</string>
+  <string name="is_running_please_wait">איז פליסנדיק, ביטע וואַרטן!</string>
+  <string name="welcome_back">ברוכים הבאים צוריק</string>
+  <string name="you_need_update">איר דאַרפֿן צו דערהייַנטיקן צו נוצן דעם אַפּ\"</string>
+  <string name="update_faile">דערהייַנטיקונג ניט אַנדערש, ביטע פּרובירן ווידער\"</string>
+</resources>

@@ -1,0 +1,192 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#9A221F1F"
+        app:layout_constraintBottom_toBottomOf="@id/ln2"
+        app:layout_constraintTop_toTopOf="@id/ln2" />
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_20"
+        android:background="@drawable/bg_ra5"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/iv_folder"
+            style="@style/text_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_12"
+            android:text="@string/grant_permission"
+            android:textColor="@color/black_1d1c1c" />
+
+        <!--        <androidx.appcompat.widget.AppCompatTextView-->
+        <!--            style="@style/text_medium"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="@dimen/dp_16"-->
+        <!--            android:gravity="center"-->
+        <!--            android:paddingEnd="@dimen/dp_16"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:text="@string/appear_on_top"-->
+        <!--            android:textSize="@dimen/dp_18"-->
+        <!--            android:textStyle="bold" />-->
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingHorizontal="@dimen/dp_12"
+            android:text="@string/if_you_deny_permission_you_cannot_use_this_service"
+            android:textColor="@color/black_1d1c1c"
+            android:textSize="@dimen/dp_16" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_6"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingHorizontal="@dimen/dp_12"
+            android:text="@string/please_enable_permission_at_settings_notifications"
+            android:textColor="@color/black_1d1c1c"
+            android:textSize="@dimen/dp_16" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_12"
+            android:layout_marginVertical="@dimen/dp_12"
+            android:background="@drawable/bg_ra5"
+            android:backgroundTint="@color/gray_a7a7a7">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginHorizontal="@dimen/dp_12"
+                android:layout_marginVertical="@dimen/dp_8"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingHorizontal="@dimen/dp_12"
+                android:text="@string/app_name"
+                android:textColor="@color/black_1d1c1c"
+                android:textSize="@dimen/dp_16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/sw"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_12"
+                android:checked="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:clickable="false"
+                app:layout_constraintBottom_toBottomOf="@id/sw"
+                app:layout_constraintEnd_toEndOf="@id/sw"
+                app:layout_constraintStart_toStartOf="@id/sw"
+                app:layout_constraintTop_toTopOf="@id/sw" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--            <androidx.appcompat.widget.AppCompatTextView-->
+            <!--                android:id="@+id/btnCancel"-->
+            <!--                style="@style/text_medium"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginHorizontal="@dimen/dp_20"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/bg_btn_disable"-->
+            <!--                android:ellipsize="marquee"-->
+            <!--                android:gravity="center"-->
+            <!--                android:marqueeRepeatLimit="marquee_forever"-->
+            <!--                android:paddingHorizontal="@dimen/dp_10"-->
+            <!--                android:paddingVertical="@dimen/dp_12"-->
+            <!--                android:scrollHorizontally="true"-->
+            <!--                android:singleLine="true"-->
+            <!--                android:text="@string/cancel"-->
+            <!--                android:textColor="@color/white" />-->
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btnAgree"
+                style="@style/text_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_20"
+                android:layout_weight="1"
+                android:background="@drawable/bg_ra8_gra"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingHorizontal="@dimen/dp_10"
+                android:paddingVertical="@dimen/dp_12"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/grant"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#9A221F1F"
+        app:layout_constraintBottom_toTopOf="@id/ln2" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#9A221F1F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ln2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

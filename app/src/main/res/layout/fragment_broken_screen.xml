@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="@dimen/dp_5"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCrank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_60"
+        android:fontFamily="@font/hijack"
+        android:gravity="center"
+        android:text="@string/broken_screens"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_24"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gui_ver_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gui_ver_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <!--    <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gui_hor_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.09956236" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gui_hor_075"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.75" />-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="@dimen/dp_10"
+        app:layout_constraintBottom_toTopOf="@id/vgBottomsheet"
+        app:layout_constraintEnd_toEndOf="@id/gui_ver_07"
+        app:layout_constraintStart_toStartOf="@id/gui_ver_03"
+        app:layout_constraintTop_toBottomOf="@id/tvCrank">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_lock2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/thumnail_lock_theme2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/bg_phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivScreen"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_4"
+                android:layout_marginEnd="@dimen/dp_6"
+                android:layout_marginBottom="@dimen/dp_8"
+                app:layout_constraintBottom_toBottomOf="@id/thumnail_lock_theme2"
+                app:layout_constraintEnd_toEndOf="@id/thumnail_lock_theme2"
+                app:layout_constraintStart_toStartOf="@id/thumnail_lock_theme2"
+                app:layout_constraintTop_toTopOf="@id/thumnail_lock_theme2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toTopOf="@id/vgBottomsheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCrank"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/fake_downloading"
+        app:lottie_speed="1.5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgBottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_ra8_top"
+        android:backgroundTint="@color/gray_35383f"
+        android:padding="@dimen/dp_16"
+        app:layout_constraintBottom_toTopOf="@id/vgNativeAds">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/vgTouch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/black_1d1c1c"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/dp_8"
+            android:paddingStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_12"
+            app:layout_constraintBottom_toTopOf="@id/vgShake"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivTouch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_touch"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTouch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_16"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:text="@string/touch"
+                android:textAllCaps="true"
+                android:textColor="@color/gray_7b7c80"
+                android:textSize="@dimen/dp_20"
+                app:layout_constraintBottom_toBottomOf="@id/ivTouch"
+                app:layout_constraintEnd_toStartOf="@id/cbTouch"
+                app:layout_constraintStart_toEndOf="@id/ivTouch"
+                app:layout_constraintTop_toTopOf="@id/ivTouch" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/cbTouch"
+                android:layout_width="@dimen/dp_26"
+                android:layout_height="@dimen/dp_26"
+                android:src="@drawable/ic_checked"
+                app:layout_constraintBottom_toBottomOf="@id/ivTouch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivTouch" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/vgShake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/dp_12"
+            android:paddingVertical="@dimen/dp_8"
+            app:layout_constraintBottom_toTopOf="@id/btnStart"
+            app:layout_constraintTop_toBottomOf="@id/vgTouch">
+
+            <ImageView
+                android:id="@+id/ivShake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shake"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvShake"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_8"
+                android:text="@string/shake"
+                android:textAllCaps="true"
+                android:textColor="@color/gray_7b7c80"
+                android:textSize="@dimen/dp_20"
+                app:layout_constraintBottom_toBottomOf="@id/ivShake"
+                app:layout_constraintEnd_toStartOf="@id/cbShake"
+                app:layout_constraintStart_toEndOf="@id/ivShake"
+                app:layout_constraintTop_toTopOf="@id/ivShake" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/cbShake"
+                android:layout_width="@dimen/dp_26"
+                android:layout_height="@dimen/dp_26"
+                android:src="@drawable/ic_checked"
+                app:layout_constraintBottom_toBottomOf="@id/ivShake"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivShake" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/btnStart"
+            style="@style/text_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_ra8_gra"
+            android:foreground="@drawable/bg_animation_click"
+            android:gravity="center"
+            android:paddingVertical="@dimen/dp_8"
+            android:text="@string/start"
+            android:textAllCaps="true"
+            android:textSize="@dimen/dp_22"
+            app:layout_constraintTop_toBottomOf="@id/vgShake" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgNativeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.gianghv.admob.CustomNativeAdsDetailBrokenScreen
+            android:id="@+id/native_ad_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_14"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.gianghv.max.MaxNativeAdLargeView
+            android:id="@+id/max_native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_14"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

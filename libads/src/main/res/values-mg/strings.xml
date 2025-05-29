@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Mametraka doka, andraso azafady…</string>
+  <string name="this_action_contains_ads">(Mety misy doka ity hetsika ity)</string>
+  <string name="is_running_please_wait">Mihazakazaka, andraso azafady!</string>
+  <string name="welcome_back">TONGASOA INDRAY</string>
+  <string name="you_need_update">Mila manavao ianao vao mampiasa ity fampiharana ity\"</string>
+  <string name="update_faile">Tsy nahomby ny fanavaozana, andramo indray\"</string>
+</resources>

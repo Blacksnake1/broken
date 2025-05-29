@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Piblisitew doni, aw ka kɔnɔni kɛ ...</string>
+  <string name="this_action_contains_ads">( Nin wale in bɛ se ka kɛ piblisitew ye ) .</string>
+  <string name="is_running_please_wait">Bɛ boli, n b\'aw deli, aw ka kɔnɔni kɛ!</string>
+  <string name="welcome_back">AW KA AW KA ƝƐNABƆLI</string>
+  <string name="you_need_update">Aw ka kan ka update kɛ walasa ka baara kɛ ni nin appli ye\".</string>
+  <string name="update_faile">Update ma ɲɛ, aw ka segin a kan\".</string>
+</resources>

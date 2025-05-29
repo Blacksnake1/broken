@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/vgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:padding="@dimen/dp_5"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCrank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hijack"
+            android:gravity="center"
+            android:text="fire screen"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_24"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/btnBack"
+            app:layout_constraintEnd_toStartOf="@id/btnInfor"
+            app:layout_constraintStart_toEndOf="@id/btnBack"
+            app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+        <ImageView
+            android:id="@+id/btnInfor"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/ic_infor"
+            app:layout_constraintBottom_toBottomOf="@id/btnBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/vgNative"
+        app:layout_constraintTop_toBottomOf="@id/vgHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_20">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guiline_vertical_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnFireTouch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@drawable/bg_item_firescreen"
+                android:paddingBottom="@dimen/dp_6"
+                app:layout_constraintEnd_toStartOf="@id/guiline_vertical_50"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imgFireTouch"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="@dimen/dp_4"
+                    android:layout_marginVertical="@dimen/dp_8"
+                    android:src="@drawable/img_fire_touch"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvFireTouch"
+                    style="@style/text_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_6"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:background="@drawable/bg_ra8_gra"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/dp_6"
+                    android:text="@string/fire_touch"
+                    app:layout_constraintTop_toBottomOf="@id/imgFireTouch" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnFireBlow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:background="@drawable/bg_item_firescreen"
+                android:paddingBottom="@dimen/dp_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guiline_vertical_50"
+                app:layout_constraintTop_toTopOf="@id/btnFireTouch">
+
+                <ImageView
+                    android:id="@+id/imgFireBlow"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="@dimen/dp_4"
+                    android:layout_marginVertical="@dimen/dp_8"
+                    android:src="@drawable/img_fire_blow"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvFireBlow"
+                    style="@style/text_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_6"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:background="@drawable/bg_ra8_gra"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/dp_6"
+                    android:text="@string/fire_blow"
+                    app:layout_constraintTop_toBottomOf="@id/imgFireBlow" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.gianghv.admob.CustomNativeAdsCrankEffect
+                android:id="@+id/adMobNativeAds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                app:layout_constraintTop_toBottomOf="@id/btnFireTouch" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnElectric"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/bg_item_firescreen"
+                android:paddingBottom="@dimen/dp_6"
+                app:layout_constraintEnd_toStartOf="@id/guiline_vertical_50"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/adMobNativeAds">
+
+                <ImageView
+                    android:id="@+id/imgElectric"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="@dimen/dp_4"
+                    android:layout_marginVertical="@dimen/dp_8"
+                    android:src="@drawable/img_electric"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvElectric"
+                    style="@style/text_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_6"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:background="@drawable/bg_ra8_gra"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/dp_6"
+                    android:text="@string/electric"
+
+                    app:layout_constraintTop_toBottomOf="@id/imgElectric" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--            <com.gianghv.admob.CustomNativeAdsItemFireScreen-->
+<!--                android:id="@+id/itemNative"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_marginHorizontal="@dimen/dp_16"-->
+<!--                app:layout_constraintBottom_toBottomOf="@id/btnElectric"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@id/guiline_vertical_50"-->
+<!--                app:layout_constraintTop_toTopOf="@id/btnElectric" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/vgNative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

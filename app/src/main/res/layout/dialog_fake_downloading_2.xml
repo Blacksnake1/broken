@@ -1,0 +1,141 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A221F1F"
+    android:gravity="center">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_10"
+        android:background="@drawable/bg_ra16_gra"
+        android:backgroundTint="#F3F9FF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginEnd="6dp"
+            android:foreground="@drawable/bg_animation_click"
+            android:src="@drawable/ic_close"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/iv_folder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iv_folder" />
+
+        <TextView
+            android:id="@+id/iv_folder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_14"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_18"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ivSucces"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:padding="@dimen/dp_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_folder"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/anim_success"
+            app:lottie_speed="1" />
+
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/vgProgess"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="@dimen/dp_12"-->
+<!--            android:layout_marginTop="@dimen/dp_6"-->
+<!--            android:layout_marginBottom="@dimen/dp_12"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/iv_folder">-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/tvPercent"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/dp_2"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/dp_16" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/dp_2"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:text="%"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/dp_16" />-->
+<!--        </LinearLayout>-->
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressBar"-->
+<!--            style="?android:attr/progressBarStyleHorizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/dp_12"-->
+<!--            android:layout_marginHorizontal="@dimen/dp_16"-->
+<!--            android:layout_marginTop="@dimen/dp_16"-->
+<!--            android:indeterminate="false"-->
+<!--            android:maxHeight="10dip"-->
+<!--            android:minHeight="10dip"-->
+<!--            android:progressDrawable="@drawable/progress_bar_custom"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/vgProgess" />-->
+
+        <View
+            android:id="@+id/ivLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/dp_12"
+            android:background="#C0C7CE"
+            app:layout_constraintTop_toBottomOf="@id/ivSucces" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/vgNativeAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_18"
+            android:paddingHorizontal="@dimen/dp_6"
+            app:layout_constraintTop_toBottomOf="@id/ivLine">
+
+            <com.gianghv.admob.CustomNativeAdsDetailBrokenScreen
+                android:id="@+id/native_ad_medium"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.gianghv.max.MaxNativeAdLargeView
+                android:id="@+id/item_max"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

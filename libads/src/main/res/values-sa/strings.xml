@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">विज्ञापनं लोड् भवति, कृपया प्रतीक्षां कुर्वन्तु ...</string>
+  <string name="this_action_contains_ads">( अस्मिन् क्रियायां विज्ञापनं भवितुं शक्नोति ) .</string>
+  <string name="is_running_please_wait">प्रचलति, कृपया प्रतीक्ष्यताम्!</string>
+  <string name="welcome_back">पुनः स्वागतम्</string>
+  <string name="you_need_update">एतस्य एप्लिकेशनस्य उपयोगाय भवद्भिः अपडेट् करणीयम्\"।</string>
+  <string name="update_faile">अद्यतनं विफलम्, पुनः प्रयासं कुर्वन्तु\" इति ।</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Chaje anons, tanpri tann...</string>
+  <string name="this_action_contains_ads">(Aksyon sa a kapab genyen anons)</string>
+  <string name="is_running_please_wait">Ap kouri, tanpri tann!</string>
+  <string name="welcome_back">BON RETOU</string>
+  <string name="you_need_update">Ou bezwen mete ajou pou itilize aplikasyon sa a\"</string>
+  <string name="update_faile">Mizajou echwe, tanpri eseye ankò\"</string>
+</resources>

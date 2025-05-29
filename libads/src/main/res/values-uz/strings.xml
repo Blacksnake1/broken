@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Reklamalar yuklanmoqda, kuting…</string>
+  <string name="this_action_contains_ads">(Ushbu amalda reklamalar boʻlishi mumkin)</string>
+  <string name="is_running_please_wait">Ishlayapti, kuting!</string>
+  <string name="welcome_back">QAYTIB KELGANINGIZDAN XURSANDMIZ</string>
+  <string name="you_need_update">Ushbu ilovadan foydalanish uchun yangilashingiz kerak\"</string>
+  <string name="update_faile">Yangilash amalga oshmadi, qayta urinib ko\'ring\"</string>
+</resources>

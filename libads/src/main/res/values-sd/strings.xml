@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">اشتهار لوڊ ٿي رهيو آهي، مهرباني ڪري انتظار ڪريو…</string>
+  <string name="this_action_contains_ads">(هي عمل اشتهارن تي مشتمل ٿي سگھي ٿو)</string>
+  <string name="is_running_please_wait">هلي رهيو آهي، مهرباني ڪري انتظار ڪريو!</string>
+  <string name="welcome_back">واپس ڀلي ڪري آيا</string>
+  <string name="you_need_update">هن ايپ کي استعمال ڪرڻ لاء توهان کي اپڊيٽ ڪرڻ جي ضرورت آهي\"</string>
+  <string name="update_faile">اپڊيٽ ناڪام ٿي وئي، مهرباني ڪري ٻيهر ڪوشش ڪريو\"</string>
+</resources>

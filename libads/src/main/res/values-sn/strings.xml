@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Kuisa ads, mira ...</string>
+  <string name="this_action_contains_ads">(Ichi chiitiko chinogona kunge chine ads)</string>
+  <string name="is_running_please_wait">Iri kumhanya, ndapota mira!</string>
+  <string name="welcome_back">MADZOKOYI</string>
+  <string name="you_need_update">Unoda kugadzirisa kuti ushandise iyi app\"</string>
+  <string name="update_faile">Kugadziridza kwatadza, ndapota edza zvakare\"</string>
+</resources>

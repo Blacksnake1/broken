@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Se încarcă anunțuri, așteptați...</string>
+  <string name="this_action_contains_ads">(Această acțiune poate conține reclame)</string>
+  <string name="is_running_please_wait">Rulează, vă rugăm să așteptați!</string>
+  <string name="welcome_back">BINE AI REVENIT</string>
+  <string name="you_need_update">Trebuie să actualizați pentru a utiliza această aplicație\"</string>
+  <string name="update_faile">Actualizarea a eșuat, vă rugăm să încercați din nou\"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">در حال بارگیری تبلیغات، لطفا صبر کنید…</string>
+  <string name="this_action_contains_ads">(این عمل می تواند حاوی تبلیغات باشد)</string>
+  <string name="is_running_please_wait">در حال اجرا است، لطفا صبر کنید!</string>
+  <string name="welcome_back">خوش برگشتی</string>
+  <string name="you_need_update">برای استفاده از این برنامه باید به روز رسانی کنید\"</string>
+  <string name="update_faile">به روز رسانی انجام نشد، لطفا دوباره امتحان کنید\"</string>
+</resources>

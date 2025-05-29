@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ప్రకటనలను లోడ్ చేస్తోంది, దయచేసి వేచి ఉండండి…</string>
+  <string name="this_action_contains_ads">(ఈ చర్యలో ప్రకటనలు ఉండవచ్చు)</string>
+  <string name="is_running_please_wait">నడుస్తోంది, దయచేసి వేచి ఉండండి!</string>
+  <string name="welcome_back">పునఃస్వాగతం</string>
+  <string name="you_need_update">ఈ యాప్‌ని ఉపయోగించడానికి మీరు అప్‌డేట్ చేయాలి\"</string>
+  <string name="update_faile">నవీకరణ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి\"</string>
+</resources>

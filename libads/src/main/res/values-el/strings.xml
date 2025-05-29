@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Φόρτωση διαφημίσεων, περιμένετε…</string>
+  <string name="this_action_contains_ads">( Αυτή η ενέργεια μπορεί να περιέχει διαφημίσεις )</string>
+  <string name="is_running_please_wait">Τρέχει, περιμένετε!</string>
+  <string name="welcome_back">ΚΑΛΩΣ ΟΡΙΣΕΣ ΠΙΣΩ</string>
+  <string name="you_need_update">Πρέπει να κάνετε ενημέρωση για να χρησιμοποιήσετε αυτήν την εφαρμογή\"</string>
+  <string name="update_faile">Η ενημέρωση απέτυχε, δοκιμάστε ξανά\"</string>
+</resources>

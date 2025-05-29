@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Okutikka ebirango, nsaba olinde ...</string>
+  <string name="this_action_contains_ads">( Ekikolwa kino kiyinza okubaamu ebirango )</string>
+  <string name="is_running_please_wait">Edduka, nsaba olinde!</string>
+  <string name="welcome_back">MWAANIRIZIDDWA ​​OKUDDAMU</string>
+  <string name="you_need_update">Olina okulongoosa okusobola okukozesa app eno\".</string>
+  <string name="update_faile">Update eremereddwa, nsaba oddemu ogezeeko\".</string>
+</resources>

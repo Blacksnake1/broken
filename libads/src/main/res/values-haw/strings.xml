@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Ke hoʻouka nei i nā hoʻolaha, e ʻoluʻolu e kali…</string>
+  <string name="this_action_contains_ads">( Hiki i kēia hana ke loaʻa nā hoʻolaha )</string>
+  <string name="is_running_please_wait">Ke holo nei, e kali!</string>
+  <string name="welcome_back">WELINA HOU</string>
+  <string name="you_need_update">Pono ʻoe e hoʻohou no ka hoʻohana ʻana i kēia app\"</string>
+  <string name="update_faile">ʻAʻole hiki ke hoʻohou, e hoʻāʻo hou\"</string>
+</resources>

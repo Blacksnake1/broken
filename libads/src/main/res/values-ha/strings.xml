@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">Ana loda tallace-tallace, da fatan za a jira…</string>
+  <string name="this_action_contains_ads">(Wannan aikin na iya ƙunshi tallace-tallace)</string>
+  <string name="is_running_please_wait">Yana gudana, da fatan za a jira!</string>
+  <string name="welcome_back">MARABA DA DAWO</string>
+  <string name="you_need_update">Kuna buƙatar sabuntawa don amfani da wannan app\"</string>
+  <string name="update_faile">Sabuntawa ya kasa, da fatan za a sake gwadawa\"</string>
+</resources>

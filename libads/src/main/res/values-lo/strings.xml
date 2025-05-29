@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">ກຳລັງໂຫລດໂຄສະນາ, ກະລຸນາລໍຖ້າ...</string>
+  <string name="this_action_contains_ads">(ການ​ປະ​ຕິ​ບັດ​ນີ້​ສາ​ມາດ​ປະ​ກອບ​ດ້ວຍ​ການ​ໂຄ​ສະ​ນາ​)</string>
+  <string name="is_running_please_wait">ກຳລັງແລ່ນຢູ່, ກະລຸນາລໍຖ້າ!</string>
+  <string name="welcome_back">ຍິນ​ດີ​ຕ້ອນ​ຮັບ​ກັບ</string>
+  <string name="you_need_update">ທ່ານ​ຈໍາ​ເປັນ​ຕ້ອງ​ປັບ​ປຸງ​ເພື່ອ​ນໍາ​ໃຊ້ app ນີ້​\"</string>
+  <string name="update_faile">ການອັບເດດລົ້ມເຫລວ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ\"</string>
+</resources>

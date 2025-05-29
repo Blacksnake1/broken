@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="loading_ads">A’ luchdachadh shanasan, fuirich thusa…</string>
+  <string name="this_action_contains_ads">(Faodaidh sanasan a bhith anns a’ ghnìomh seo)</string>
+  <string name="is_running_please_wait">Ruith, fuirich!</string>
+  <string name="welcome_back">FÀILTE AIR AIS</string>
+  <string name="you_need_update">Feumaidh tu ùrachadh gus an aplacaid seo a chleachdadh\"</string>
+  <string name="update_faile">Dh\'fhàillig ùrachadh, feuch ris a-rithist\"</string>
+</resources>

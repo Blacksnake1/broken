@@ -1,0 +1,204 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <ImageView
+        android:id="@+id/bgItemWeapon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textLang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_2"
+            android:gravity="center_vertical"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_22"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <!--        <com.airbnb.lottie.LottieAnimationView-->
+        <!--            android:id="@+id/loadingAdsLang"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginTop="@dimen/dp_4"-->
+        <!--            android:layout_marginEnd="@dimen/dp_16"-->
+        <!--            android:padding="@dimen/dp_6"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@id/textLang"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@id/textLang"-->
+        <!--            app:lottie_autoPlay="true"-->
+        <!--            app:lottie_loop="true"-->
+        <!--            app:lottie_rawRes="@raw/loading_circle"-->
+        <!--            app:lottie_speed="1" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dp_8"
+        app:layout_constraintBottom_toTopOf="@id/btnAccept"
+        app:layout_constraintTop_toBottomOf="@id/rl_header">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvCurrentLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/current_language"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_18"
+                android:fontFamily="@font/roboto_bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rcv_language" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/langugageSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:elevation="@dimen/dp_5"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintTop_toBottomOf="@id/tvCurrentLanguage">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ln_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gray_35383f">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/iv_flag"
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_height="@dimen/dp_35"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/dp_16"
+                        android:layout_marginVertical="@dimen/dp_8"
+                        android:src="@drawable/ic_vietnam"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/dp_8"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:maxLines="1"
+                        android:text="English"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_16"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/iv_flag"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <RadioButton
+                        android:id="@+id/cbSelected"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="@dimen/dp_16"
+                        android:background="@drawable/ovan_checkbox_selector"
+                        android:button="@null"
+                        android:clickable="false"
+                        android:enabled="false"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAllLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/all_languages"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_18"
+                android:fontFamily="@font/roboto_bold"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_language"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/dp_16"
+                android:layout_marginBottom="@dimen/dp_16"
+                app:layout_constraintBottom_toTopOf="@id/tvCurrentLanguage"
+                app:layout_constraintTop_toBottomOf="@id/tvAllLanguage"
+                tools:listitem="@layout/item_language" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:background="@drawable/bg_ra8_gra"
+        android:foreground="@drawable/bg_animation_click"
+        android:gravity="center"
+        android:visibility="gone"
+        android:paddingVertical="@dimen/dp_10"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_16"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/dp_16"
+        app:layout_constraintBottom_toTopOf="@id/vgNative" />
+    <FrameLayout
+        android:id="@+id/vgNative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.gianghv.admob.CustomNativeAdsLanguage
+            android:id="@+id/native_ad_medium"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:visibility="gone" />
+
+        <com.gianghv.max.MaxNativeAdLargeView
+            android:id="@+id/max_native_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
